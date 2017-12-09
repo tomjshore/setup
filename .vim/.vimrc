@@ -1,3 +1,9 @@
+if v:version > 703
+	execute pathogen#infect()
+	syntax on
+	filetype plugin indent on
+endif
+
 colorscheme desert " Sets the colours works well if purple background
 set relativenumber " Displays the relative line number
 set number 	   " Shows the current line number
